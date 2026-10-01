@@ -1,7 +1,7 @@
 // アプリ本体（HTML/アイコン）をキャッシュする。Apps Script への通信はキャッシュしない。
 // ネットワーク優先: オンラインなら常に最新のファイルを取得し（ブラウザのHTTPキャッシュも再確認）、
 // オフラインのときだけ保存済みのキャッシュを使う。
-const CACHE = "sheet-memo-v4";
+const CACHE = "diary-memo-v1";
 const ASSETS = ["./", "./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", e => {
